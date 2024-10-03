@@ -18,7 +18,12 @@ header h1 {
 }
 
 main {
-    min-height: 70vh;
+    display: flex; /* Cambia la dirección a una fila */
+    flex-direction: row; /* Alinea los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    position: relative; /* Mantiene la posición relativa */
+    gap: 20px; /* Añade un espacio entre la imagen y los botones */
 }
 
 footer {
@@ -26,7 +31,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
